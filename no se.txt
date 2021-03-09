@@ -1,0 +1,37 @@
+tenemos varios tipos de base de datos y varias formas de conectarnos a ellas
+segun la tecnologia que utilicemos.
+
+1)base de datos relacionales y no relacionales
+
+	mongodb- sql -mysql - oracle etc...
+
+si usamos maven tenemos que declarar las dependencias en el archivo pom
+de maven luego hacer un clean , compile package y luego corre lo que queramos
+
+para conectarnos a una base de datos de mysql desde mvn con el lenguaje de programacion 
+de java lo que tenemos que hacer es instalar la dependencia de mysql
+y luego crear la coneccion --> hay varias maneras de conectarme
+primero --> crear una clase coneccion con el patron singleton para que solo me devuelva
+una coneccion o bien y una coneccion normal y con su metodo close para cerrar la coneccion
+
+es decir creamos una clase coneccion --> su constructor para la coneccion --> el patron singleton para que nos
+devuelva solo una instancia de la coneccion --> y el metodo de cierre de la conexion.
+
+luego tenemos que crear las clases que seran las encargadas de conectar cno esta base de datos
+son conocidas como las clases DAO donde se implementa la coneccion con la base de datos
+
+y luego las clases que seran las encargadas de realizar las direfentes funciones de conexcion 
+como findbyid  , findall , remove , update etc.. dentro de cada una de estas clases pasabmos
+o bien un objeto o bien un dato para que luego podamos trabjaar con este dato y hacer uan
+determinada cosa con lab ase de datos .
+
+dentro de cada uno de estos metodos tenemosque hacer varias cosas .
+primero --> establecer y cerrar la conecion
+segundo --> crear una sentencia a ejecutar segun el paratmetro que hayamos pasado
+tercero --> crear el preparestatemetn y ejecutar la sentencia 
+cuarto --> trabajar con el resultado segun si queremos muchos datos o si no nada
+		esto quiere decir un ejecute update que devolvera un true o un false
+		o un ejecutequery que nos devolvera uno o varios datos
+		si nos devuelven datos trabajaremos con el resultset con el cual 
+		iremos almacenando estos datos para luegos mostrarlo o hacer lo que queramos
+		con ellos. y por ultimo pues devolvemos algun error

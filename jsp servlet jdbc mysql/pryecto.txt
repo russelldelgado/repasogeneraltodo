@@ -1,0 +1,36 @@
+si vamos a crear un proyecto tenemos que diferenciar varias cosas
+
+
+la primera de ellas es que tenemos que estructurar un modelo.
+
+ejemplo ;
+
+ordenador.jsp --> sera la vista en formato html aunque dentro podemos meterle codigo java
+ordenadorDao.java .--> sera el modelo objeto para crear datos
+ordenadorServlet.java --> sera el encargado de realizar los metodos get post put delete
+ordenadors.java--> java Bean ??
+
+
+
+DATABASE --> 
+
+dependiendo de la base de datos donde vayamos a trabajar tenemos
+que hacerlo de una manera o de otra , en este caso trabajaremos con 
+MySql que es una base de datos relacional.
+
+1)creamos las tablas y definimos sus atributos.
+2) indicamos que tipo de atributos tiene la tabla varchar , number etc..
+3)si sus datos son nulos o si sus datos son claves primarias 
+
+create database ordenadores; --> creamos una base de datos que se llama empleados
+
+create table ordenador .....
+
+estructura por defecto --> database --> tablas , vistas , etc..
+
+
+
+jsp --> encargados de las vistas 
+servlet --> encargados de las rutas y metodos 
+jdbc --> conector de base de datos
+mysql --> base de datos

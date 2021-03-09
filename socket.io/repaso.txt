@@ -1,0 +1,54 @@
+que es ??
+
+herramienta para comunicacion en tiempo real.
+
+
+que debo saber --> html - frontend-> css -javascript - esto es el front ent
+			para crear algo sencillo para el navegador
+			en el backen veremos --> nodejs
+
+javascript se usa en el front end y en el backend--> modelo cliente servidor
+
+
+que son los websocket --> mantienen comunicadas a las aplicaciones del cliente
+			y del servidor --> usa cliente servidor
+
+
+con websocket mantenemos comunicados el cliente con el servidor 
+y que los datos se actualicen a la vez
+
+websockets es como una api de html -->
+
+vamos a explicar todo mediante chat. --> ya que mantenemos a ambos
+	flujos conectado mediante un chat 
+	
+	podemos enviar todo tipo de dato.
+
+	porque los websockets ??
+
+
+antes solo se podia usando apps extras ahora ya no .
+
+--bajo consumo de banda ancha
+--es mas moderno
+--baja latencia en consumo de datos 
+--conexcion con tcp
+-- todos los navegadores soportan web-sockets
+
+aplicaciones de websockets ---> juegos de navegador multijugador
+				herramientas colaborativas
+				aplicaciones de dibujo multiple
+				stremer de audio y de video
+				protocoles rest pueden ser cambiados por websocket
+
+creamos nuestra primera aplicacion.
+
+
+vamos a utilizar codigo ya escrito con socket io.
+
+utilizaremos nodejs con socketio
+
+
+
+
+			

@@ -1,0 +1,41 @@
+esto es solo repaso 
+
+
+carpetas que necesitamos si o si -->
+
+1)src --> ira la estructura de todo nuestro poryecto
+2)src/controller--> iran los controladores /get/post/put/delete de cada clase
+3)src/models--> el modelo de nuestra base de datos donde vamos a subir nuestros archivos.
+4)src/routes--> las rutas de cada uno de nuestros datos (usuarios-ordenadores/Etc)
+		aqui indicamos que controlador se encarga de cada una
+		de las rutas que tengamos userControll va con routes/user
+		y definimos que metodo hace cada ruta --> get / post / put / delete
+
+fuera que tendremos y dentre de src -->
+	1)app.js --> crador del servidor (express / y su puertos) indicamos las rutas que usa y la configuracion
+	2)config.js--> implementamos lo que es el cors ,morgan y parseadores y decimos que usara nuestro poryecto como configuracion inicial
+	3)database --> conectamos con nuestra base de datos
+	4)especificamos las rutas generales que usara ejemplo:
+		-por cada clase que tengamos por asi decirlo usaremos una ruta diferente
+		-ordenadores - usuarios - habitaciones -etc....
+
+
+usamos babel y env uno para trasnpilar de ems6 a menores y el otro
+para tener mas seguridad con .env y almacenar ahi variables globales
+y que no esten en el codigo.
+
+
+que utilizamos --> 
+
+	NODE.JS --> trabjar con javascript
+	CORS --> QUE PODAMOS Y PUEDAN CONECTARSE A NUESTRA API
+	MONGODB--> BASE DE DATOS NOsql
+	mongoos --> programa para trabajar con mongo desde javascript
+	javascript--> lenguaje de programación
+	express --> craer servidores
+	bodyParser --> trabajar con ficheros json
+	morgan --> ver las peticones por la consola y el codigo de respuesta
+	babel--> transpilador de codigo enmascript6
+	dotenv --> variables glogalbes
+	nodemon --> nos permite correr el programa sin que se nos este parando.
+	
